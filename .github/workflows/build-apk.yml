@@ -25,17 +25,28 @@ jobs:
           flutter-version: '3.13.0'
           channel: 'stable'
 
+      - name: Verify Flutter installation
+        run: |
+          flutter --version
+          flutter doctor
+
       - name: Get dependencies
         run: flutter pub get
 
       - name: Build APK
-        run: flutter build apk --release
+        run: flutter build apk --release --verbose
+
+      - name: Check APK output
+        run: |
+          ls -la build/app/outputs/apk/release/
+          file build/app/outputs/apk/release/app-release.apk
 
       - name: Upload APK to Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: build/app/outputs/apk/release/app-release.apk
+          body_path: RELEASE_NOTES.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
