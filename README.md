@@ -1,6 +1,13 @@
 # Railgun Vault Wallet
 
+[![GitHub Release](https://img.shields.io/github/v/release/jirkacepelka/railwallet?style=flat-square)](https://github.com/jirkacepelka/railwallet/releases)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
+[![Flutter](https://img.shields.io/badge/Flutter-3.x+-blue?style=flat-square&logo=flutter)](https://flutter.dev)
+[![Arbitrum](https://img.shields.io/badge/Arbitrum-One-blue?style=flat-square)](https://arbitrum.io)
+
 A Flutter-based privacy-focused wallet for Arbitrum L2 using Railgun Vault contracts.
+
+**[📥 Download APK](https://github.com/jirkacepelka/railwallet/releases) | [📖 Documentation](START_HERE.md) | [🚀 Quick Start](QUICK_START.md)**
 
 ## Features
 
