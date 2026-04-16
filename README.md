@@ -4,6 +4,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 [![Flutter](https://img.shields.io/badge/Flutter-3.x+-blue?style=flat-square&logo=flutter)](https://flutter.dev)
 [![Arbitrum](https://img.shields.io/badge/Arbitrum-One-blue?style=flat-square)](https://arbitrum.io)
+[![Tests](https://github.com/jirkacepelka/railwallet/workflows/Tests/badge.svg)](https://github.com/jirkacepelka/railwallet/actions)
 
 A Flutter-based privacy-focused wallet for Arbitrum L2 using Railgun Vault contracts.
 
